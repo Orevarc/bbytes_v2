@@ -1,0 +1,2 @@
+django: gunicorn server.bbytes.wsgi --bind 127.0.0.1:$DJANGO_PORT
+node: node web-client/server.js
