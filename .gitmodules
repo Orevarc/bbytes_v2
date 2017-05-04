@@ -1,0 +1,3 @@
+[submodule "bbytes_client"]
+	path = bbytes_client
+	url = https://github.com/Orevarc/bbytes_client.git
