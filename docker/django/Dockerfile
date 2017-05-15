@@ -4,7 +4,7 @@ MAINTAINER Michael Cravero <mjcravero@gmail.com>
 ENV PYTHONUNBUFFERED 1
 
 COPY ./docker/django/django-entrypoint.sh /
-COPY ./server/requirements-dev.txt /django/requirements-dev.txt
+COPY ./bbytes_server/requirements-dev.txt /django/requirements-dev.txt
 
 WORKDIR /django
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-until cd server
+until cd bbytes_server
 do
     echo "Waiting for django volume..."
 done
