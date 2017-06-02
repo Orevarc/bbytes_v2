@@ -117,6 +117,7 @@ VALUES
 ('apple cider vinegar', 'OTHER', NOW(), NOW()),
 ('mustard', 'OTHER', NOW(), NOW()),
 ('bacon', 'MEAT', NOW(), NOW());
+('stalks celery', 'VEGETABLE, NOW(), NOW())
 COMMIT;
 
 
