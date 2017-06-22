@@ -31,17 +31,17 @@ VALUES
 ('salt', 'SPICE', NOW(), NOW()),
 ('fresh parsley', 'HERB', NOW(), NOW()),
 ('pasta', 'OTHER', NOW(), NOW()),
-('onion', ' VEGETABLE', NOW(), NOW()),
+('onion', 'VEGETABLE', NOW(), NOW()),
 ('cinnamon sticks', 'SPICE', NOW(), NOW()),
-('cumin', ' SPICE', NOW(), NOW()),
+('cumin', 'SPICE', NOW(), NOW()),
 ('chipotle pepper powder', 'SPICE', NOW(), NOW()),
-('chicken breasts', ' MEAT', NOW(), NOW()),
+('chicken breasts', 'MEAT', NOW(), NOW()),
 ('salsa', 'OTHER', NOW(), NOW()),
 ('black beans', 'CANNED', NOW(), NOW()),
-('corn', ' VEGETABLE', NOW(), NOW()),
-('chili powder', ' SPICE', NOW(), NOW()),
+('corn', 'VEGETABLE', NOW(), NOW()),
+('chili powder', 'SPICE', NOW(), NOW()),
 ('cayenne pepper', 'SPICE', NOW(), NOW()),
-('cheddar', ' DAIRY', NOW(), NOW()),
+('cheddar', 'DAIRY', NOW(), NOW()),
 ('eggs', 'DAIRY', NOW(), NOW()),
 ('milk', 'DAIRY', NOW(), NOW()),
 ('green chiles', 'VEGETABLE', NOW(), NOW()),
@@ -116,8 +116,8 @@ VALUES
 ('red potatoes', 'VEGETABLE', NOW(), NOW()),
 ('apple cider vinegar', 'OTHER', NOW(), NOW()),
 ('mustard', 'OTHER', NOW(), NOW()),
-('bacon', 'MEAT', NOW(), NOW());
-('stalks celery', 'VEGETABLE, NOW(), NOW())
+('bacon', 'MEAT', NOW(), NOW()),
+('stalks celery', 'VEGETABLE', NOW(), NOW());
 COMMIT;
 
 
@@ -125,15 +125,15 @@ COMMIT;
 
 -- INSERT INTO ingredient_mapping (name, ingredient_id, created_at, updated_at)
 -- VALUES
--- ('cayenne' - cayenne pepper
+-- ('cayenne'- cayenne pepper
 -- ('cayenne powder'
--- ('chicken breast' - chicken breasts
--- ('egg' - eggs
--- ('carrot' - carrots
--- ('garlic, minced' - garlic
--- ('corn kernels' - corn
--- ('cauliflower florets' - cauliflower
--- ('oregano' - dried oregano
--- ('smoked paprika' - paprika
--- ('sweet potato' - sweet potatoes
--- ('black beans, drained' - black beans
+-- ('chicken breast'- chicken breasts
+-- ('egg'- eggs
+-- ('carrot'- carrots
+-- ('garlic, minced'- garlic
+-- ('corn kernels'- corn
+-- ('cauliflower florets'- cauliflower
+-- ('oregano'- dried oregano
+-- ('smoked paprika'- paprika
+-- ('sweet potato'- sweet potatoes
+-- ('black beans, drained'- black beans
