@@ -14,7 +14,7 @@ Recipes input into BBytes have their ingredients run through a Named Entity Reco
 - "carrots" - FOOD
 - ",finely chopped" - COMMENT
 
-Once the ingredient is split, the FOOD entities are combined and then checked against a store of base ingredients. If no base ingredient is found, the food entity is then checked against a store of ingredient mappings which map to base ingredients. A store if base ingredients is used to ensure that food items are correctly combined together when combining from different recipes.
+Once the ingredient is split, the FOOD entities are combined and then checked against a store of base ingredients. If no base ingredient is found, the food entity is then checked against a store of ingredient mappings which map to base ingredients. A store of base ingredients is used to ensure that food items are correctly combined together when combining from different recipes.
 
 ## Client
 
