@@ -14,7 +14,5 @@ RUN npm install
 # Bundle app source
 COPY ./bbytes_client/ /usr/src/bbytes_client
 
-EXPOSE 3000
-
 # defined in package.json
-CMD [ "npm", "run", "start" ]
+CMD [ "npm", "run", "dev-build" ]

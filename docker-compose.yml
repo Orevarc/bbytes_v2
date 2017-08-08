@@ -35,5 +35,8 @@ services:
             service: web
         links:
             - backend
+        command: npm run start
         entrypoint:
             - /web-entrypoint.sh
+        ports:
+            - 3000:3000
