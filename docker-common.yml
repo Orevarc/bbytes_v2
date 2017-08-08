@@ -24,4 +24,4 @@ services:
             context: .
             dockerfile: ./docker/web/Dockerfile
         volumes:
-            - .:/django
+            - ./bbytes_client/:/usr/src/bbytes_client/:rw
