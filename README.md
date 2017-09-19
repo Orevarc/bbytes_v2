@@ -11,10 +11,10 @@ Recipes input into BBytes have their ingredients run through a Named Entity Reco
 - "1" - QTY
 - "cup" - UNIT
 - "baby" - COMMENT
-- "carrots" - FOOD
+- "carrots" - NAME
 - ",finely chopped" - COMMENT
 
-Once the ingredient is split, the FOOD entities are combined and then checked against a store of base ingredients. If no base ingredient is found, the food entity is then checked against a store of ingredient mappings which map to base ingredients. A store of base ingredients is used to ensure that food items are correctly combined together when combining from different recipes.
+Once the ingredient is split, the NAME entities are combined and then checked against a store of base ingredients. If no base ingredient is found, the food entity is then checked against a store of ingredient mappings which map to base ingredients. A store of base ingredients is used to ensure that food items are correctly combined together when combining from different recipes.
 
 ## Client
 
@@ -28,18 +28,11 @@ The backend is a REST API built using the Django Rest Framework with a PSQL data
 
 BBytes uses docker to containerize its development enviroment. For production, I have this project setup to run on two seperate [Heroku](https://www.heroku.com/) dynos. One is a Node.js dyno for running the frontend and the other is a Python dyno for running the API server.
 
-### Running
+### Running Locally
 
 Run Docker development server
 
 - `$ docker-compose up`
-
-**NOTE - There are currently issues with the frontend container where the correct ports aren't being mapped. For now, run the following commands on your local in order to gain access to a dev version of the frontend:
-
-```
-npm run dev-build
-npm start
-```
 
 The web app should now be accessible at [http://localhost:3000](http://localhost:3000)
 
