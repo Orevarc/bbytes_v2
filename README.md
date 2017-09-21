@@ -20,11 +20,11 @@ Once the ingredient is split, the NAME entities are combined and then checked ag
 
 In order to convert choosen recipes into a combined shopping list, the recipe URLs must be entered on the main page of BBytes, each seperated by a new line.
 
-![Screenshot](/bbytes_client/images/recipe_enter.png?raw=true "Entering Recipes")
+![Entering Recipes](https://i.imgur.com/GWqkpOL.png "Entering Recipes")
 
 Once 'Get Ingredients' is pushed, the app will attempt to identify all ingredients and seperate them into named entities where it will then merge them into a shopping list for you. The shopping list page is split into 3 sections: Recipes, Shopping List, & For Review items.
 
-![Screenshot](/bbytes_client/images/shopping_list_example.png?raw=true "Shopping List with For Review")
+![Shopping List with For Review](https://i.imgur.com/dmOvlk2.png " Shopping List with For Review")
 
 ### Recipes
 
@@ -38,7 +38,7 @@ This section shows the merged list of ingredients along with the quantity needed
 
 This section lists the ingredients which the app was not able to parse correctly and asks the user for help identifying what the actual ingredient is. Each item in this list displays the full ingredient line from the recipe along with it's best guess of what the ingredient name actually is. The user can select each item where they will be presented with a dropdown that allows them to select from specify what that ingredient actually is. The app will remember the ingredient entered here for next time so this process does not have to be repeated.
 
-![Screenshot](/bbytes_client/images/shopping_list_only.png?raw=true "Shopping List without For Review")
+![Shopping List without For Review](https://i.imgur.com/Bw4ogaG.png "Shopping List without For Review")
 
 
 ## Client
