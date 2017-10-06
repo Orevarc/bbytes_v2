@@ -1,6 +1,6 @@
 # BBytes
 
-BBytes is an web app that attempts to generate a shopping list based off of recipe URLs. It attempts to identy all ingredients and parts of the ingredient (ie. name, unit, amount, etc.) using a Named Entity Recognizer (NER) in order to merge all ingredients over multiple recipes into one concise shopping list. 
+BBytes is a web app that attempts to generate a shopping list based off of recipe URLs. It attempts to identy all ingredients and parts of the ingredient (ie. name, unit, amount, etc.) using a Named Entity Recognizer (NER) in order to merge all ingredients over multiple recipes into one concise shopping list. 
 
 ## Overview
 
